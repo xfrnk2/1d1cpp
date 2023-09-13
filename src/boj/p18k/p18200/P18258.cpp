@@ -135,9 +135,9 @@ int main()
 	int N;
 
 	scanf("%d", &N);
-	Queue queue(20000000);
+	Queue queue(10);
 	for (int i = 0; i < N; i++) {
-		char command[20];
+		char command[6];
 		scanf("%s", &command);
 
 		if (isPush(command)) {
