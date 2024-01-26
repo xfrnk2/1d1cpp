@@ -14,11 +14,12 @@ int main(void) {
 			num++;
             t += a;
             continue;
+        }
         t -= c;
 		if (t < 0) t = 0;
 	}
 
 	cout << num * b;
-    }
+    
 }
 
