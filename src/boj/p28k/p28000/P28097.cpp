@@ -9,4 +9,4 @@ int main(void) {
         ans += t;
     }
     cout << ans / 24 << " " << ans % 24;
-}
+} 
